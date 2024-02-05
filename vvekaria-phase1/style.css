@@ -1,0 +1,228 @@
+/*The look of the  whole main content*/
+body.page-1 {
+  background-color: rgb(85, 5, 135);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #04034a;
+  color: #fff;
+  padding: 5px;
+}
+  
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+  
+header a:hover {
+  background-color: #555;
+}
+  
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+  
+/*centers the statement*/
+.welcome-statement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  color: #16b1e9;
+  font-size: 25px;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+  
+.login-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(85, 5, 135);
+  border: 2px solid #16b1e9;
+  color: #16b1e9;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+ 
+/*login button*/
+button {
+  background-color: transparent;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: rgb(119, 72, 116);
+}
+ 
+/*for the header topics pages*/
+/*The look of the  whole main content*/
+body.page-2 {
+  background-color: rgb(85, 5, 135);
+  /* other styles for the body element on this page */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.image {
+  margin-right: 40px;
+}
+
+.essay {
+  border: 4px solid #16b1e9;
+  padding: 10px;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.experience {
+  border: 4px solid #16b1e9;
+  padding: 10px;
+  max-width: 2000px;
+  margin-top: 60px;
+  align-content: center;
+}
+
+/* Create a two-column grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+/* Style the left box */
+.left-box {
+  background-color: #eee;
+  padding: 20px;
+  width: 40%;
+  margin-top: 40px;
+  margin-left: 40px;
+  border: 4px solid #16b1e9;
+}
+
+/* Style the header in the left box */
+.left-box h2 {
+  margin-top: 0;
+}
+
+/* Style the list in the left box */
+.left-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style each item in the list */
+.left-box li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style the image in each item */
+.left-box img {
+  max-width: 50px;
+  margin-right: 10px;
+  
+}
+
+/* Style the right box */
+.right-box {
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 40px;
+  margin-right: 40px;
+  color: #ffffff;
+  align-content: flex-start;
+  border: 4px solid #16b1e9;
+
+}
+
+/* Style the header in the right box */
+.right-box h2 {
+  margin-top: 0;
+}
+
+/* Style the paragraphs in the right box */
+.right-box p {
+  margin: 0;
+}
+
+body.page-3 {
+  background-color: rgb(85, 5, 135);
+}
+
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  margin-top: 80px;
+  background-color: rgb(41, 6, 62);
+  color:white;
+
+}
+
+.horizontal-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.horizontal-list li {
+  margin-right: 100px;
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0;
+}
+
+.horizontal-list li a {
+  color: white;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Quicksand&family=Staatliches&display=swap');
+
+
+/**fonts from google**/
+h1{
+  font-family: 'Quicksand', sans-serif;
+}
+
+h4{
+  font-family: 'Staatliches', cursive;
+}
+
+h3{
+  font-family: 'Play', sans-serif;
+}
+

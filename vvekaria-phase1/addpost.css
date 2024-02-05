@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Quicksand&family=Staatliches&display=swap');
+
+/*The look of the  whole main content*/
+body {
+    font-family: 'Prata', serif;
+    background-color: #cf66d7;
+    margin: 0;
+    padding: 0;
+}
+  
+/*a puple header with a centered title*/
+header {
+    background-color: #540947;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+  
+h1 {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+  
+/*forms asthetics*/
+form {
+    background-color: #3d85c1;
+    border: 4px solid #0d0945;
+    border-radius: 5px;
+    margin: 40px auto;
+    max-width: 500px;
+    padding: 30px;
+}
+  
+.form-look {
+    margin-bottom: 15px;
+}
+ 
+/*buttons asthetics*/
+label {
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+  
+input[type="text"],
+textarea {
+    border: 3px solid #2f0334;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+  
+button[type="submit"] {
+    background-color: #be559e;
+    border: solid;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor:pointer;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+  
+button[type="submit"]:hover {
+    background-color: #1d1353;
+}
+  
